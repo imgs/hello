@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="{{ site.author }}" />
+    <meta http-equiv="refresh" content="5;url=https://ofimg.com">
+    <title>{{ page.title }} | {{ site.url }}</title>
+    <link rel="shortcut icon" href="/favicon.png">
+    <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/highlight.css">
+    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
+  </head>
+  <script type="text/javascript">
+    function setTimeSpan(){
+    	var date = new Date();
+    	timeSpan.innerText=date.format('yyyy-MM-dd hh:mm:ss');
+    }
+    
+    Date.prototype.format = function(format)
+		{
+    var o =
+    	{
+    	    "M+" : this.getMonth()+1, //month
+    	    "d+" : this.getDate(),    //day
+    	    "h+" : this.getHours(),   //hour
+    	    "m+" : this.getMinutes(), //minute
+    	    "s+" : this.getSeconds(), //second
+    	    "q+" : Math.floor((this.getMonth()+3)/3),  //quarter
+    	    "S" : this.getMilliseconds() //millisecond
+    	}
+    	if(/(y+)/.test(format))
+    	format=format.replace(RegExp.$1,(this.getFullYear()+"").substr(4 - RegExp.$1.length));
+    	for(var k in o)
+    	if(new RegExp("("+ k +")").test(format))
+    	format = format.replace(RegExp.$1,RegExp.$1.length==1 ? o[k] : ("00"+ o[k]).substr((""+ o[k]).length));
+    	return format;
+		}
+  </script>
+  <body onLoad="setInterval(setTimeSpan,1000);">
+    <div id="container">
+      <div id="main" role="main">
+        <header>
+        <h1>{{ page.title }}</h1>
+        </header>
+        <nav>
+        <span><a title="首页" class="" href="/">Home</a></span>
+        <span><a title="关于" class="" href="/about/">About</a></span>
+        <span><a title="服务器状态" class="" href="https://status.ofimg.com/">Server Status</a></span>
+        <!--
+        <span><a title="分类" class="" href="/categories/">Categories</a></span>
+        <span><a title="标签" class="" href="/tags/">Tags</a></span>
+        <span><a title="链接" class="" href="/links/">Links</a></span>
+        -->
+        <span><a title="留言板" class="" href="/guestbook/">Guestbook</a></span>
+        <span><a title="订阅" class="" href="/feed/">Subscribe</a></span>
+        </nav>
+        <article class="content">
+        {{ content }}
+        </article>
+      </div>
+
+    <footer>
+        <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> & <a href="http://pages.github.com">GitHub</a> | Copyright © {{site.time | date:"%Y"}} by <a href="/about/">ofimg.com</a> | Telegram Group：<a href="https://t.me/ofimg">@ofimg</a> <!-- <span class="label label-info" id="timeSpan"> --> </span></small></p>
+    </footer>
+
+    </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23937777-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23937777-1');
+	</script>
+  </body>
+</html>
