@@ -4,4 +4,4 @@ layout: page
 comments: no
 ---
 
-> ** :) **   
+> **:)**   
