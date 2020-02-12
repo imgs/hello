@@ -12,7 +12,7 @@ tags: []
 
 
 HTML代码：
-```
+```html
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -33,7 +33,7 @@ HTML代码：
 ```
 
 CSS代码：
-```
+```css
 *{
 	margin: 0;
 	padding: 0;
