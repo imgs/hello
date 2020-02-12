@@ -10,7 +10,9 @@ tags: []
 
 **奥运五环LOGO+渐变文字页面居中**
 
-```html
+
+HTML代码：
+```
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -30,7 +32,8 @@ tags: []
 </html>
 ```
 
-```CSS
+CSS代码：
+```
 *{
 	margin: 0;
 	padding: 0;
