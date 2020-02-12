@@ -9,7 +9,7 @@ tags: []
 > **Olympic Logo**  
 
 **奥运五环LOGO+渐变文字页面居中**
-
+**演示地址：[https://ofimg.com/links/olympiclogo.html](https://ofimg.com/links/olympiclogo.html)**
 
 HTML代码：
 ```html
@@ -17,7 +17,7 @@ HTML代码：
 	<head>
 		<meta charset="utf-8" />
 		<title>Olympic logo</title>
-		<link rel="stylesheet" href="./css/olympiclogo.css">
+		<link rel="stylesheet" href="/css/olympiclogo.css">
 	</head>
 	<body>
 		<div class="wrapper">
