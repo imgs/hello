@@ -8,7 +8,7 @@ tags: []
 
 > **BandwagonHOST: LOS ANGELES - CN2 GIA ECOMMERCE**  
 
-``code
+``
 6.58%优惠码：BWH3HYATVBJW
 ``
 
