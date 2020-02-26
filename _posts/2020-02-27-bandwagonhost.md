@@ -25,6 +25,7 @@ tags: []
 | 12x Intel Xeon | 64 GB | 1280 GB RAID-10 | 12000 GB/mo | 10 Gigabit | $4699.99 USD Annually | [购买](https://bandwagonhost.com/aff.php?aff=26939&pid=93) |
 
 ### LOS ANGELES - CN2 GIA LIMITED EDITION
+
 | CPU | RAM | SSD | Transfer | Link speed |价格 | 链接 |
 | :--------: | :-----: | :----: | :-----: | :----: | :-----: | :----: |
 | 1x Intel Xeon | 512 MB | 10 GB RAID-10 | 500 GB/mo | 1 Gigabit | $49.99 USD Annually | [购买](https://bandwagonhost.com/aff.php?aff=26939&pid=94) |
