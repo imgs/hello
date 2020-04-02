@@ -1,6 +1,6 @@
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-url: ofimg.com
+url: artist.cf
 author: admin
 highlighter: rouge
 exclude: ["Rakefile", "CNAME", "README.md"]
