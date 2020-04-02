@@ -10,7 +10,7 @@ tags: []
 
 **奥运五环LOGO+渐变文字页面居中**
 
-**演示地址：[https://ofimg.com/links/olympiclogo.html](https://ofimg.com/links/olympiclogo.html)**
+**演示地址：[https://artist.cf/links/olympiclogo.html](https://artist.cf/links/olympiclogo.html)**
 
 HTML代码：
 ```html
